@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title> Computer Rock, Paper, Scissors</title>
+
+    <h1>Rock, Paper, Scissors</h1>
+
+</head>
+<body>
+
+<script>
+
+function buttonCode() {
+     var UserEnter = document.getElementById("myInput");
+     console.log(UserEnter.value);
+        // Computer choice
+        var FirstComputer = Math.random();// this return floating- point, pseudo-random number in the range 0-1
+        // you can use this computer come up with random number that help it choice rock, paper scissors
+        if (FirstComputer < 0.35) {
+            FirstComputer = "rock";
+        } else if (FirstComputer <= 0.75) {
+            FirstComputer = "paper";
+        } else {
+            FirstComputer = "scissors";
+        }
+
+        // Display computer choices
+        document.write("<p>Computer 1:" + " " + FirstComputer + "</p>");
+
+        document.write("<p>User:" + " " + UserEnter.value + "</p>");
+
+        // this show the result of who win the game. choice 1 is computer 1 and choice 2 is computer 3
+        var compare = function (choice1, choice2) {
+            if (choice1 === choice2) {
+                return "It's a tie!";
+            }
+            if (choice1 === "rock") {
+                if (choice2 === "scissors") {
+                    // rock wins
+                    return " Computer win!";
+                } else {
+                    // paper wins
+                    return "Computer lose! Try again.";
+                }
+            }
+            if (choice1 === "paper") {
+                if (choice2 === "rock") {
+                    // paper wins
+                    return " Computer win!";
+                } else {
+                    // scissors wins
+                    return "Computer lose! Try again.";
+                }
+            }
+            if (choice1 === "scissors") {
+                if (choice2 === "rock") {
+                    // rock wins
+                    return "Computer lose! Try again.";
+                } else {
+                    // scissors wins
+                    return "Computer win!";
+                }
+            }
+        };
+        //this call the var in the top, then display the result in the screen
+        var results = compare(FirstComputer, UserEnter.value.toLowerCase());
+        // Display results
+        document.write(results);
+    }
+</script>
+
+
+<input id="myInput" value="rock, paper, scissors">
+<button id="Play" onclick="buttonCode()">Play</button>
+
+</body>
+
+
+</html>
