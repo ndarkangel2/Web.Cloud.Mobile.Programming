@@ -135,6 +135,18 @@ input:focus {
   align-items: center;
 }
 
+.flex-container{
+  position: relative;
+  width: 500px;
+  height: 400px;
+  top: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+
+}
 .buttons button {
   width: 160px;
   height: 45px;
@@ -155,6 +167,7 @@ p {
 }
 footer {
   position: absolute;
+  top: 740px;
   width: 100vw;
   bottom: 0;
 }
