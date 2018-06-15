@@ -10,21 +10,21 @@
     <script src="https://use.fontawesome.com/21be5f2318.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
     <script src="todo.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-
+<center>
 <body ng-app="toDoApp" ng-controller="angularTodoC">
 <form ng-submit="submitNewItem()">
     <input type="text" ng-model="input" size="50" placeholder="Add New">
     <input type="submit" value="Enter">
-    <input type="button" ng-click="deleteItem($index)" value="delete">
     <input type="button" ng-click="completeItem($index)" value="Complete">
 </form>
 
-
 <div ng-repeat="add in items">
     <input type="checkbox" ng-model="add.done"> <span ng-bind="add.todoText"></span>
+    <i class="glyphicon glyphicon-remove" ng-click="deleteItem($index)" ></i>
 
 </div>
 </body>
-
+</center>
 </html>

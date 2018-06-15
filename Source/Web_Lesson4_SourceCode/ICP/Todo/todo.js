@@ -18,12 +18,9 @@ angularTodo.controller('angularTodoC', ['$scope', function ($scope) {
 
     // Write code to delete item
 
-    $scope.deleteItem= function (index) {
 
+    $scope.deleteItem = function (index) {
         $scope.items.splice(index,1);
-
-
-
 
     };
 
