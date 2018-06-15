@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <title>Todo in Angular.js</title>
@@ -9,18 +9,22 @@
           type='text/css'>
     <script src="https://use.fontawesome.com/21be5f2318.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
-    <script src="todo.js"></script> // 1. write JS (controller) code in "todo.js" to work with todo list
+    <script src="todo.js"></script>
 </head>
-<body>
 
-// 2. write html(view) code to display the todo list
-<form ng-submit="addtodolist()">
-    <input type="text" ng-model="todoInput" size="50" placeholder="Add New">
+<body ng-app="toDoApp" ng-controller="angularTodoC">
+<form ng-submit="submitNewItem()">
+    <input type="text" ng-model="input" size="50" placeholder="Add New">
     <input type="submit" value="Enter">
+    <input type="button" ng-click="deleteItem($index)" value="delete">
+    <input type="button" ng-click="completeItem($index)" value="Complete">
 </form>
-<div ng-repeat="add in newtodolist">
-    <input type="checkbox" ng-model="add.done"> <span ng-bind="add.newtodolist"></span>
-</div>
 
+
+<div ng-repeat="add in items">
+    <input type="checkbox" ng-model="add.done"> <span ng-bind="add.todoText"></span>
+
+</div>
 </body>
+
 </html>
