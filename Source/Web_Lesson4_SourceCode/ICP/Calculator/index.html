@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.5/angular.min.js"></script>
     <script src="calculator.js"></script> // 1. write JS (controller) code in "calculator.js" to work with calculator
     <link rel="stylesheet" type="text/css" href="index.less">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,34 +15,32 @@
 
 
 <div ng-app="CalculatorApp" ng-controller="CalculatorController">
-    <div ng-app ng-controller="Ctrl">
-
-        <div class="calc">
+    <div class="calc">
             <div class="screen" >
-
-
+                <p ng-model="equation" ng-bind-html="equation"></p>
+                <p ng-model="number"   ng-bind-html="number"  ></p>
             </div>
             <div class="buttons">
-                <button name="btn1" class="button" value="1" ng-click="buttonClicked(1)">1</button>
-                <button name="btn2" class="button" value="2" ng-click="buttonClicked(2)">2</button>
-                <button name="btn3" class="button" value="3" ng-click="buttonClicked(3)">3</button>
-                <button name="btn/" class="button"  ng-click="buttonClicked(/)">/</button>
-                <button name="btn4" class="button" value="4" ng-click="buttonClicked(4)">4</button>
-                <button name="btn5" class="button" value="5" ng-click="buttonClicked(5)">5</button>
-                <button name="btn6" class="button" value="6" ng-click="buttonClicked(6)">6</button>
-                <button name="btn*" class="button" ng-click="buttonClicked(*)">*</button>
-                <button name="btn7" class="button" value="7" ng-click="buttonClicked(7)">7</button>
-                <button name="btn8" class="button" value="8" ng-click="buttonClicked(8)">8</button>
-                <button name="btn9" class="button" value="9" ng-click="buttonClicked(9)">9</button>
-                <button name="btn+" class="button" ng-click="buttonClicked(+)">+</button>
-                <button name="btn0" class="button" value="0" ng-click="buttonClicked(0)">0</button>
-                <button name="btn11" class="button"  ng-click="buttonClicked(122)"></button>
-                <button name="btn12" class="button"  ng-click="buttonClicked(122)"></button>
-                <button name="btn=" class="button" ng-click="buttonClicked(=)">=</button>
+                <button name="btn1"   class="button" value="1" ng-click="buttonClicked(1)">1</button>
+                <button name="btn2"   class="button" value="2" ng-click="buttonClicked(2)">2</button>
+                <button name="btn3"   class="button" value="3" ng-click="buttonClicked(3)">3</button>
+                <button name="btnDiv" class="button" value="/" ng-click="buttonClicked(/)">/</button>
+                <button name="btn4"   class="button" value="4" ng-click="buttonClicked(4)">4</button>
+                <button name="btn5"   class="button" value="5" ng-click="buttonClicked(5)">5</button>
+                <button name="btn6"   class="button" value="6" ng-click="buttonClicked(6)">6</button>
+                <button name="btnMul" class="button" value="*" ng-click="buttonClicked(*)">*</button>
+                <button name="btn7"   class="button" value="7" ng-click="buttonClicked(7)">7</button>
+                <button name="btn8"   class="button" value="8" ng-click="buttonClicked(8)">8</button>
+                <button name="btn9"   class="button" value="9" ng-click="buttonClicked(9)">9</button>
+                <button name="btnAdd" class="button" value="+" ng-click="buttonClicked(+)">+</button>
+                <button name="btn0"   class="button" value="0" ng-click="buttonClicked(0)">0</button>
+                <button name="btnMin" class="button" value="-" ng-click="buttonClicked(-)">-</button>
+                <button name="btnN"   class="button" value="t" ng-click="buttonClicked(n)"></button>
+                <button name="btnEq"  class="button" value="=" ng-click="buttonClicked(=)">=</button>
                 <div class="button clear">Clear</div>
             </div>
         </div>
-    </div>
+
 </div>
 
 
