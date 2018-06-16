@@ -14,20 +14,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CourseRegistrationAPP.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LAB1/CourseRegistrationAPP.html">
+      <file leaf-file-name="BachelorsFallClass.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LAB1/style.css">
+      <file leaf-file-name="CourseRegistrationAPP.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LAB1/CourseRegistrationAPP.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state>
+              <caret selection-end-line="25" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BachelorsFall.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsFall.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -60,10 +72,37 @@
         <option value="$PROJECT_DIR$/LabData/PHDSpring.html" />
         <option value="$PROJECT_DIR$/LabData/PHDSummer.html" />
         <option value="$PROJECT_DIR$/LAB1/CourseRegistrationAPP2.html" />
+        <option value="$PROJECT_DIR$/LAB1/style.css" />
         <option value="$PROJECT_DIR$/LabData/Bachelors.html" />
         <option value="$PROJECT_DIR$/LabData/Masters.html" />
         <option value="$PROJECT_DIR$/LabData/PHD.html" />
-        <option value="$PROJECT_DIR$/LAB1/style.css" />
+        <option value="$PROJECT_DIR$/LabData/BachelorsFall.html" />
+        <option value="$PROJECT_DIR$/LabData/PHD/PHD.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/class/BachelorsFallClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/class/BachelorSpringClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/class/BachelorsSummerClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Master/class/MastersSpringClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Master/class/MastersSummerClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Master/class/MastersFallClass.html" />
+        <option value="$PROJECT_DIR$/LabData/PHD/class/PHDSpringClass.html" />
+        <option value="$PROJECT_DIR$/LabData/PHD/class/PHDSummerClass.html" />
+        <option value="$PROJECT_DIR$/LabData/PHD/class/PHDFallClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Master/Main/Career_option/Career_Option.html" />
+        <option value="$PROJECT_DIR$/LabData/PHD/Main/Career_option/Career_Option.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Career_option/Career_Option.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BachelorsFall.html" />
+        <option value="$PROJECT_DIR$/LAB1/CourseRegistrationAPP.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BachelorsSpring.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BachelorsSummer.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/class.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Class/Law/ClassList.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/ClassList.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/BachelorsFallClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsFallClass.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsFall.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsSpring.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsSummer.html" />
+        <option value="$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass.html" />
       </list>
     </option>
   </component>
@@ -76,10 +115,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-7" />
-    <option name="width" value="1380" />
-    <option name="height" value="600" />
+    <option name="y" value="94" />
+    <option name="width" value="1366" />
+    <option name="height" value="595" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -103,6 +143,44 @@
               <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
               <item name="LabData" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="CourseRegistrationApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
+              <item name="LabData" type="462c0819:PsiDirectoryNode" />
+              <item name="Bachelor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseRegistrationApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
+              <item name="LabData" type="462c0819:PsiDirectoryNode" />
+              <item name="Bachelor" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseRegistrationApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
+              <item name="LabData" type="462c0819:PsiDirectoryNode" />
+              <item name="Bachelor" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="BechelorsHTML" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseRegistrationApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
+              <item name="LabData" type="462c0819:PsiDirectoryNode" />
+              <item name="Bachelor" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Class" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CourseRegistrationApp" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseRegistrationApp" type="462c0819:PsiDirectoryNode" />
+              <item name="LabData" type="462c0819:PsiDirectoryNode" />
+              <item name="Bachelor" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
+              <item name="Class" type="462c0819:PsiDirectoryNode" />
+              <item name="Computer_Science" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -113,15 +191,25 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_Lesson4_SourceCode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SCI 303/Web_Lesson4_SourceCode" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\BechelorsHTML" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\Class\Computer_Science" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\Class\Medical" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\Class\Law" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\PHD\Main\Class" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp" />
-      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LAB1" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\Class\Computer_Science" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\PHD\Main\PHDHTML" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Master\Main\MastersHTML" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\Class" />
+      <recent name="C:\Users\Dark Angel\Documents\web.mob\CourseRegistrationApp\LabData\Bachelor\Main\BechelorsHTML" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,18 +236,18 @@
       <updated>1528987351530</updated>
       <workItem from="1528987352990" duration="7470000" />
       <workItem from="1529046273731" duration="12000" />
-      <workItem from="1529091061268" duration="710000" />
+      <workItem from="1529091061268" duration="12066000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8192000" />
+    <option name="totallyTimeSpent" value="19548000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-7" y="94" width="1366" height="595" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27525622" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27851853" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
@@ -186,94 +274,10 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LAB1/Page1.html" />
-    <entry file="file://$PROJECT_DIR$/LabData/PHDSpring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/MastersSpring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/MastersSummer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/PHDFall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/MastersFall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/BachelorsFall.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-column="3" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/BachelorsSpring.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="7" lean-forward="true" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/BachelorsSummer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/Masters.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/Bachelors.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="78" selection-start-line="8" selection-start-column="78" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LAB1/CourseRegistrationAPP.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/PHDSummer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabData/PHD.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="80" selection-start-line="8" selection-start-column="80" selection-end-line="8" selection-end-column="80" />
         </state>
       </provider>
     </entry>
@@ -282,15 +286,303 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LAB1/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="304">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/Career_option/class/PHDFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/Career_option/class/PHDSpringClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/Career_option/class/PHDSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/Career_option/class/MastersFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/Career_option/class/MastersSpringClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/Career_option/class/MastersSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/Career_option/Career_Option.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/Career_option/Career_Option.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Career_option/BachelorsClassforFall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/BachelorsSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/BachelorsSpringClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/MastersHTML/Masters.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="89" selection-start-line="21" selection-start-column="89" selection-end-line="21" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/MastersHTML/MastersFall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/MastersHTML/MastersSpring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Master/Main/MastersHTML/MastersSummer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/PHDHTML/PHD.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/PHDHTML/PHDFall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/PHDHTML/PHDSpring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/PHD/Main/PHDHTML/PHDSummer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/ClassList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Law/ClassList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/ClassList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Law/BachelorsSummer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/BachelorsSummer.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Law/BachelorsSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/BachelorsSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Dark Angel/Documents/web.mob/CourseRegistrationApp/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="" />
+            <node x="" y="">../../../../LAB1/script.js</node>
+            <node x="" y="">../../../../LAB1/style.css</node>
+            <node x="" y="">https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="147.0" y="144.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JavaScript-modules-diagram/C:/Users/Dark Angel/Documents/web.mob/CourseRegistrationApp/LabData/Bachelor/Main/BechelorsHTML/BachelorsFall.html">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JavaScript-modules-diagram</ID>
+          <OriginalElement />
+          <nodes>
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="" />
+            <node x="" y="">https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="172.0" y="137.5" />
+          <SelectedNodes />
+          <Categories>
+            <Category>All</Category>
+          </Categories>
+          <VISIBILITY>Details</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Medical/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsSpringClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsSummerClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/Bachelors.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="65" lean-forward="true" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" lean-forward="true" selection-start-column="12" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsSummer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsSpring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LAB1/CourseRegistrationAPP.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="17" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state>
+          <caret selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/BechelorsHTML/BachelorsFall.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LabData/Bachelor/Main/Class/Computer_Science/BachelorsFallClass.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
