@@ -1,139 +1,50 @@
 angular.module('CalculatorApp', [])
     .controller('CalculatorController', function ($scope) {
 
-        var elementsArray = [];
+        $scope.equation = "";
+        $scope.number = 0;
+        $scope.num1 = 0;
+        $scope.num2 =0;
+        $scope.oper = null;
+        $scope.add = "+";
+        $scope.substract = "-";
+        $scope.multiply = "*";
+        $scope.divide = "/";
+        $scope.equals = "=";
 
-        clear();
+        $scope.buttonClicked = function(btn){
 
-        function clear() {
-            $scope.equation = "";
-            $scope.number = 0;
-            elementsArray = [];
-        }
-        $scope.buttonClicked = function (btn){
-            $scope.equation + btn;
+            $scope.equation += btn;
 
-        }
-
-
-        function clearNumber() {
-            $scope.number = "";
         };
-
-        function equationAdd(a, b) {
-            elementsArray.push(a);
-            elementsArray.push(b);
-            $scope.equation += a;
-            $scope.equation += b;
+        $scope.clear = function(number)
+        {
+            $scope.equation="";
+            $scope.number=0;
         }
-
-        function multiply(a, b) {
-            var c = parseInt(elementsArray[a]) * parseInt(elementsArray[b]);
-            elementsArray[a] = c.toString();
-            elementsArray.splice(a + 1, 2);
-        }
-
-        function divide(a, b) {
-            var c = parseInt(elementsArray[a]) / parseInt(elementsArray[b]);
-            elementsArray[a] = c.toString();
-            elementsArray.splice(a + 1, 2);
-        }
-
-        function add(a, b) {
-            var c = parseInt(elementsArray[a]) + parseInt(elementsArray[b]);
-            elementsArray[a] = c.toString();
-            elementsArray.splice(a + 1, 2);
-        }
-
-        function substract(a, b) {
-            var c = parseInt(elementsArray[a]) - parseInt(elementsArray[b]);
-            elementsArray[a] = c.toString();
-            elementsArray.splice(a + 1, 2);
-        }
-
-
-        function calculate() {
-            for (var i = 0; i < elementsArray.length; i++) {
-                if (elementsArray[i] == "*") {
-                    multiply(i - 1, i + 1);
-                    i = i - 2;
-                } else if (elementsArray[i] == "/") {
-                    divide(i - 1, i + 1);
-                    i = i - 2;
-                }
-
-            };
-            for (var i = 0; i < elementsArray.length; i++) {
-                if (elementsArray[i] == "+") {
-                    add(i - 1, i + 1);
-                    i = i - 2;
-                } else if (elementsArray[i] == "-") {
-                    substract(i - 1, i + 1);
-                    i = i - 2;
+        $scope.calculate = function (equation) {
+            for (var i = 0; i<equation.length; i++)
+            {
+                if(equation[i]=="+" || equation[i]=="-" || equation[i]=="*" || equation[i]=="/")
+                {
+                    $scope.oper = equation[i];
+                    var input = i;
                 }
             }
-        };
+            $scope.num1 = parseInt(equation.substring(0,input ));
+            $scope.num2 = parseInt(equation.substring(input +1,equation.length));
+            if($scope.oper=="+"){
+                $scope.number = $scope.num1+$scope.num2;
+            }
+            else if($scope.oper=="-"){
+                $scope.number = $scope.num1-$scope.num2;
+            }
+            else if($scope.oper=="*"){
+                $scope.number = $scope.num1*$scope.num2;
+            }
+            else if($scope.oper=="/"){
+                $scope.number = $scope.num1/$scope.num2;
+            }
+        } ;
 
-        for (var i = 0; i < button.length; i++) {
-            button[i].addEventListener('click', function() {
-                switch (this.innerHTML) {
-                    case "+":
-                    {
-                        equationAdd($scope.number, "+");
-                        clearNumber();
-                        break;
-                    }
-                    case "-":
-                    {
-                        equationAdd($scope.number, "-");
-                        clearNumber();
-                        break;
-                    }
-
-                    case "*":
-                    {
-                        equationAdd($scope.number, "*");
-                        clearNumber();
-                        break;
-                    }
-                    case "/":
-                    {
-                        equationAdd($scope.number, "/");
-                        clearNumber();
-                        break;
-                    }
-
-                    case "%":
-                    {
-                        equationAdd($scope.number, "%");
-                        clearNumber();
-                        break;
-                    }
-                    case "Clear":
-                    {
-                        clear();
-                        break;
-
-                    }
-
-                    case "=":
-                    {
-                        equationAdd($scope.number, "=");
-                        elementsArray.pop();
-                        calculate();
-                        $scope.number = elementsArray[0];
-                        $scope.equation = "";
-                        elementsArray.pop();
-                        break;
-                    }
-
-                    default:
-                    {
-                        $scope.number += this.innerHTML;
-                        break;
-                    };
-
-                };
-            });
-        }
     });
