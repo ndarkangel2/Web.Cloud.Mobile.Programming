@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myTranslate" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body class="body">
+
+<div ng-controller="View2Ctrl" style="top: 200px">
+
+    <div class="menu" id="div_translateContainer">
+        <h1 align="absolute" style="text-align: center; color: #1ab188">Translate</h1>
+        <input type="text" id="txt_input" placeholder="Enter the place you want to search for"
+               style="margin-left: 100px"/>
+        <select id="drop_downmenu" style="margin-left: 100px">
+            <option value="bs">bs</option>
+            <option value="saab">Korean</option>
+            <option value="opel">Russian</option>
+
+        </select>
+        <button id="btn_getReview" ng-click="getTranslate()">Translate</button>
+    </div>
+
+    <div id="div_VenueList">
+        <h2 style="text-align: center; color: #1ab188"> Translated </h2>
+        <div ng-model = "translatetext"  >
+            {{translatetext}}
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>
