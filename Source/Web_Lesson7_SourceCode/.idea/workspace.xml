@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f41b9af8-c0e7-4a37-ae14-ab4c4fda92e5" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="mongo.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/mongo.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2635">
+              <caret line="155" column="32" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>crea</find>
+      <find>add</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/home.html" />
+        <option value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/mongo.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/accepts/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/array-flatten/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/assert/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/body-parser/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/bson/browser_build/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/bson/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/buffer-shims/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/bytes/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/content-disposition/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/content-type/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/cookie-signature/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/cookie/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/core-util-is/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/cors/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/debug/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/depd/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/destroy/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/ee-first/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/encodeurl/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/es6-promise/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/escape-html/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/etag/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/express/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/finalhandler/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/forwarded/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/fresh/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/http-errors/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/iconv-lite/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/ipaddr.js/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/isarray/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/media-typer/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/merge-descriptors/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/methods/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mime-db/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mime-types/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mime/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mongodb-core/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mongodb/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/ms/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/negotiator/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/object-assign/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/on-finished/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/parseurl/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/path-to-regexp/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/process-nextick-args/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/proxy-addr/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/qs/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/range-parser/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/raw-body/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/readable-stream/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/require_optional/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/require_optional/test/nestedTest/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/resolve-from/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/safe-buffer/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/semver/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/send/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/serve-static/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/setprototypeof/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/statuses/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/string_decoder/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/type-is/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/unpipe/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/util-deprecate/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/util/node_modules/inherits/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/util/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/utils-merge/package.json" />
+      <path value="$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/vary/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="y" value="94" />
+    <option name="width" value="1365" />
+    <option name="height" value="595" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Web_Lesson7_SourceCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Lesson7_SourceCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Lesson7_SourceCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Lesson7_SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Web_Lesson7_SourceCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Web_Lesson7_SourceCode" type="462c0819:PsiDirectoryNode" />
+              <item name="UseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="MEAN_Stack_App" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Web_Lesson6_SourceCode" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.mongo.js">
+    <configuration name="home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Web_Lesson7_SourceCode/UseCase/MEAN_Stack_App/home.html" />
+    <configuration name="app.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="app.js" working-dir="$PROJECT_DIR$/UseCase/MEAN_Stack_App/js" />
+    <configuration name="mongo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="mongo.js" working-dir="$PROJECT_DIR$/UseCase/MEAN_Stack_App" />
+    <configuration name="readfile.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="readfile.js" working-dir="$PROJECT_DIR$/NodeJSExamples" />
+    <configuration name="url.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="url.js" working-dir="$PROJECT_DIR$/NodeJSExamples" />
+    <list>
+      <item itemvalue="Node.js.readfile.js" />
+      <item itemvalue="Node.js.url.js" />
+      <item itemvalue="Node.js.mongo.js" />
+      <item itemvalue="JavaScript Debug.home.html" />
+      <item itemvalue="Node.js.app.js" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.mongo.js" />
+        <item itemvalue="JavaScript Debug.home.html" />
+        <item itemvalue="Node.js.app.js" />
+        <item itemvalue="Node.js.url.js" />
+        <item itemvalue="Node.js.readfile.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f41b9af8-c0e7-4a37-ae14-ab4c4fda92e5" name="Default" comment="" />
+      <created>1530038794232</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530038794232</updated>
+      <workItem from="1530038797871" duration="12526000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12526000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2767857" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39869282" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/UseCase/.idea/UseCase.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2088" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/bg.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/border.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/contact.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/employee.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/index.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/lms.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/images/lock.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-10639" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/js/angular.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSExamples/events.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSExamples/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSExamples/readfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NodeJSExamples/url.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="36" lean-forward="true" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/node_modules/mongodb/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="65" column="68" lean-forward="true" selection-start-line="65" selection-start-column="68" selection-end-line="65" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/addBook.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/mongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UseCase/MEAN_Stack_App/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="155" column="32" lean-forward="true" selection-start-line="155" selection-start-column="32" selection-end-line="155" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#th#0;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#1;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#2;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#th#3;n#tr#0;n#thead#0;n#table#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
