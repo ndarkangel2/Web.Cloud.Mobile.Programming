@@ -37,8 +37,5 @@ angular.module('myYoutubeApp', [])
 
             }
         }
-        //console.log(response.items[0].id.videoId)
-       // $scope.getVideoUrl =function(id){
-        //    return "https://https://www.youtube.com/embed/"+id;
-       // }
+
     });
