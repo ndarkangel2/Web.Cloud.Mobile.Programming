@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myYoutubeApp" class="no-js">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My AngularJS App</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stykesheet" href="stykesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.1.1/angular-sanitize.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="youtube.js"></script>
+</head>
+
+<body class="body">
+
+<div ng-controller="TwitterCtrl" style="top: 200px" align="center">
+
+    <div class="menu" id="div_SearchContainer">
+        <h1 align="absolute" style="text-align: center; color: #1ab188">Youtube Video Search</h1>
+        <input type="text" id="search" placeholder="Enter the search query"/>
+        <button id="btn_getSearch" ng-click="getVideo()">Search</button>
+    </div>
+    <div ng-repeat = "video in youtubeVideo">
+        <h2 style="text-align: center; color: #1ab188"> Youtube Video</h2>
+        <iframe width="600" height="600" src="http://www.youtube.com/embed/{{video.id.videoId}}" frameborder="0"></iframe>
+    </div>
+
+</div>
+
+</body>
+
+</html>
