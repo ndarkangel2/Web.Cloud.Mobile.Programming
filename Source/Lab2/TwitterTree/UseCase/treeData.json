@@ -1,0 +1,71 @@
+{
+    "name": "cmax510",
+    "parent": "twitter",
+    "children": [
+      {
+        "name": "James Bryant",
+        "parent": "cmax510",
+        "children": [
+          {
+            "name": "Tiffany",
+            "parent": "James Bryant"
+          },
+          {
+            "name": "Julie Kopfhamer",
+            "parent": "James Bryant"
+          },
+          {
+            "name": "BlueLite Gaming",
+            "parent": "James Bryant"
+          },
+          {
+            "name": "Toxic",
+            "parent": "James Bryant"
+          }
+        ]
+      },
+      {
+        "name": "G.Eric",
+        "parent": "cmax510",
+        "children": [
+          {
+            "name": "Evelyn Barber",
+            "parent": "G.Eric"
+          },
+          {
+            "name": "MIX.MASTA.KING",
+            "parent": "G.Eric"
+          },
+          {
+            "name": "Christian Moreno",
+            "parent": "G.Eric"
+          },
+          {
+            "name": "Kameron El negro",
+            "parent": "G.Eric"
+          }
+        ]
+      },
+      {
+        "name": "Tyler Schmidt",
+        "parent": "cmax510",
+        "children": [
+          {
+            "name": "Matthew Rutledge",
+            "parent": "Tyler Schmidt"
+          },
+          {
+            "name": "Chops",
+            "parent": "Tyler Schmidt"
+          },
+          {
+            "name": " Women Winter",
+            "parent": "Tyler Schmidt"
+          }
+
+
+        ]
+      }
+
+    ]
+  }
