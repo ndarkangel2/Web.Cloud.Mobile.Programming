@@ -10,7 +10,9 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Spinner;
 import android.widget.RadioButton;
+import android.widget.ArrayAdapter;
 import android.widget.Toast;
 import android.content.Intent;
 
@@ -18,17 +20,32 @@ import java.net.URL;
 
 public class MainActivity extends AppCompatActivity {
     private static final String MAIN_ACTIVITY_TAG = "MainActivity";
-    final int COFFEE_PRICE = 5;
-    final int WHIPPED_CREAM_PRICE = 1;
-    final int CHOCOLATE_PRICE = 2;
+    final int PIZZA_PRICE = 10;
+    final int CHICKEN_PRICE = 3;
+    final int ONION_PRICE = 1;
     String orderSummaryMessage="";
     int quantity = 2;
 
+
+// Specify the layout to use when the list of choices appears
+
+// Apply the adapter to the spinner
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+       //Spinner spinner = (Spinner) findViewById(R.id.spinner_list);
+        // Create an ArrayAdapter using the string array and a default spinner layout
+       // ArrayAdapter<CharSequence> arrayAdapter = ArrayAdapter.createFromResource(this,
+         //      R.array.spinner_list_items, android.R.layout.simple_spinner_item);
+        // Specify the layout to use when the list of choices appears
+        //arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+// Apply the adapter to the spinner
+       // spinner.setAdapter(arrayAdapter);
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
     }
     /**
      * This method is called when the order button is clicked.
@@ -45,15 +62,15 @@ public class MainActivity extends AppCompatActivity {
         EditText userInputNameView = (EditText) findViewById(R.id.user_input);
         String userInputName = userInputNameView.getText().toString();
 //        check if whipped cream is selected
-        CheckBox whippedCream = (CheckBox) findViewById(R.id.whipped_cream_checked);
-        boolean hasWhippedCream = whippedCream.isChecked();
+        CheckBox chicken = (CheckBox) findViewById(R.id.chicken_checked);
+        boolean hasChicken = chicken.isChecked();
         //        check if chocolate is selected
-        CheckBox chocolate = (CheckBox) findViewById(R.id.chocolate_checked);
-        boolean hasChocolate = chocolate.isChecked();
+        CheckBox onion = (CheckBox) findViewById(R.id.onion_checked);
+        boolean hasOnion = onion.isChecked();
 //        calculate and store the total price
-        float totalPrice = calculatePrice(hasWhippedCream, hasChocolate);
+        float totalPrice = calculatePrice(hasChicken, hasOnion);
 //        create and store the order summary
-        String orderSummaryMessage = createOrderSummary(userInputName, hasWhippedCream, hasChocolate, totalPrice);
+        String orderSummaryMessage = createOrderSummary(userInputName, hasChicken, hasOnion, totalPrice);
 // Write the relevant code for making the buttons work(i.e impelement the implicit and explicit intents
         Intent order = new Intent(MainActivity.this, newlistOrder.class);
         order.putExtra("Order_List", orderSummaryMessage);
@@ -72,15 +89,15 @@ public class MainActivity extends AppCompatActivity {
         EditText userInputNameView = (EditText) findViewById(R.id.user_input);
         String userInputName = userInputNameView.getText().toString();
 //        check if whipped cream is selected
-        CheckBox whippedCream = (CheckBox) findViewById(R.id.whipped_cream_checked);
-        boolean hasWhippedCream = whippedCream.isChecked();
+        CheckBox chicken = (CheckBox) findViewById(R.id.chicken_checked);
+        boolean hasChicken = chicken.isChecked();
         //        check if chocolate is selected
-        CheckBox chocolate = (CheckBox) findViewById(R.id.chocolate_checked);
-        boolean hasChocolate = chocolate.isChecked();
+        CheckBox onion = (CheckBox) findViewById(R.id.onion_checked);
+        boolean hasOnion = onion.isChecked();
 //        calculate and store the total price
-        float totalPrice = calculatePrice(hasWhippedCream, hasChocolate);
+        float totalPrice = calculatePrice(hasChicken, hasOnion);
 //        create and store the order summary
-        String orderSummaryMessage = createOrderSummary(userInputName, hasWhippedCream, hasChocolate, totalPrice);
+        String orderSummaryMessage = createOrderSummary(userInputName, hasChicken, hasOnion, totalPrice);
 // Write the relevant code for making the buttons work(i.e impelement the implicit and explicit intents
         Intent emailIntent = new Intent(Intent.ACTION_SEND);
         emailIntent.setData(Uri.parse("mailto:"));
@@ -94,10 +111,10 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private String createOrderSummary(String userInputName, boolean hasWhippedCream, boolean hasChocolate, float price) {
+    private String createOrderSummary(String userInputName, boolean hasChicken, boolean hasOnion, float price) {
          orderSummaryMessage = getString(R.string.order_summary_name,userInputName) +"\n"+
-                getString(R.string.order_summary_whipped_cream,boolToString(hasWhippedCream))+"\n"+
-                getString(R.string.order_summary_chocolate,boolToString(hasChocolate)) +"\n"+
+                getString(R.string.order_summary_chicken,boolToString(hasChicken))+"\n"+
+                getString(R.string.order_summary_onion,boolToString(hasOnion)) +"\n"+
                 getString(R.string.order_summary_quantity,quantity)+"\n"+
                 getString(R.string.order_summary_total_price,price) +"\n"+
                 getString(R.string.thank_you);
@@ -111,13 +128,13 @@ public class MainActivity extends AppCompatActivity {
      *
      * @return total Price
      */
-    private float calculatePrice(boolean hasWhippedCream, boolean hasChocolate) {
-        int basePrice = COFFEE_PRICE;
-        if (hasWhippedCream) {
-            basePrice += WHIPPED_CREAM_PRICE;
+    private float calculatePrice(boolean hasChicken, boolean hasOnion) {
+        int basePrice = PIZZA_PRICE;
+        if (hasChicken) {
+            basePrice += CHICKEN_PRICE;
         }
-        if (hasChocolate) {
-            basePrice += CHOCOLATE_PRICE;
+        if (hasOnion) {
+            basePrice += ONION_PRICE;
         }
 
         return quantity * basePrice;
@@ -146,9 +163,9 @@ public class MainActivity extends AppCompatActivity {
             display(quantity);
         } else {
 
-            Log.i("MainActivity", "Please select less than one hundred cups of coffee");
+            Log.i("MainActivity", "Please select less than one pizza");
             Context context = getApplicationContext();
-            String lowerLimitToast = getString(R.string.too_much_coffee);
+            String lowerLimitToast = getString(R.string.too_much_pizza);
             int duration = Toast.LENGTH_SHORT;
             Toast toast = Toast.makeText(context, lowerLimitToast, duration);
             toast.show();
@@ -168,9 +185,9 @@ public class MainActivity extends AppCompatActivity {
             display(quantity);
         } else {
 
-            Log.i("MainActivity", "Please select atleast one cup of coffee");
+            Log.i("MainActivity", "Please select atleast one pizza");
             Context context = getApplicationContext();
-            String upperLimitToast = getString(R.string.too_little_coffee);
+            String upperLimitToast = getString(R.string.too_little_pizza);
             int duration = Toast.LENGTH_SHORT;
             Toast toast = Toast.makeText(context, upperLimitToast, duration);
             toast.show();
