@@ -1,71 +1,39 @@
 package com.example.darkangel.newapplication;
-
-import android.Manifest;
+import android.*;
+import android.content.Context;
 import android.content.pm.PackageManager;
+import android.location.Address;
+import android.location.Geocoder;
 import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
-import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
+import android.os.Bundle;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+import java.util.List;
 
 public class myGoogleMap extends FragmentActivity implements OnMapReadyCallback {
 
     private GoogleMap mMap;
-    LocationManager mylocation;
+    public Geocoder geocoder;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_google_map);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
-        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
+        SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
+                .findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
-        mylocation = (LocationManager) getSystemService(LOCATION_SERVICE);
-        if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
-            // TODO: Consider calling
-            //    ActivityCompat#requestPermissions
-            // here to request the missing permissions, and then overriding
-            //   public void onRequestPermissionsResult(int requestCode, String[] permissions,
-            //                                          int[] grantResults)
-            // to handle the case where the user grants the permission. See the documentation
-            // for ActivityCompat#requestPermissions for more details.
-            return;
-        }
-        mylocation.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, 0, 0, new LocationListener() {
-                @Override
-                public void onLocationChanged(Location location) {
-                    double latitude = location.getLatitude();
-                    double logitude = location.getLongitude();
-                    LatLng latLng = new LatLng(latitude, logitude);
-                    mMap.addMarker(new MarkerOptions().position(latLng).title("My Location"));
-                    mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLng, 10.2f));
-                }
-
-
-                @Override
-                public void onStatusChanged(String s, int i, Bundle bundle) {
-
-                }
-
-                @Override
-                public void onProviderEnabled(String s) {
-
-                }
-
-                @Override
-                public void onProviderDisabled(String s) {
-
-                }
-            });
-
     }
 
 
@@ -81,5 +49,78 @@ public class myGoogleMap extends FragmentActivity implements OnMapReadyCallback 
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
+        geocoder = new Geocoder(this);
+        StringBuilder userAddress = new StringBuilder();
+        // Add a marker in Sydney and move the camera
+        //LatLng sydney = new LatLng(-34, 151);
+        LocationManager userCurrentLocation = (LocationManager) this
+                .getSystemService(Context.LOCATION_SERVICE);
+        LocationListener userCurrentLocationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(Location location) {
+
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+
+            }
+        };
+        LatLng userCurrentLocationCorodinates = null;
+        double latitute = 0, longitude = 0;
+        if (ActivityCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED && ActivityCompat
+                .checkSelfPermission(this, android.Manifest.permission.ACCESS_COARSE_LOCATION)
+                != PackageManager.PERMISSION_GRANTED) {
+            //show message or ask permissions from the user.
+            return;
+        }
+        //Getting the current location of the user.
+        userCurrentLocation.requestLocationUpdates(LocationManager.GPS_PROVIDER,
+                0, 0, userCurrentLocationListener);
+        latitute = userCurrentLocation
+                .getLastKnownLocation(LocationManager.GPS_PROVIDER)
+                .getLatitude();
+        longitude = userCurrentLocation
+                .getLastKnownLocation(LocationManager.GPS_PROVIDER)
+                .getLongitude();
+        userCurrentLocationCorodinates = new LatLng(latitute,longitude);
+        //Getting the address of the user based on latitude and longitude.
+        try {
+            List<Address> addresses = geocoder.getFromLocation(latitute, longitude, 1);
+            Address address = addresses.get(0);
+            userAddress =  new StringBuilder();
+            for (int i = 0; i < address.getMaxAddressLineIndex(); i++) {
+                userAddress.append(address.getAddressLine(i)).append("\t");
+            }
+            userAddress.append(address.getCountryName()).append("\t");
+
+        }
+        catch(Exception ex)
+        {
+            ex.printStackTrace();
+        }
+        //Setting our image as the marker icon.
+        Bundle extras = getIntent().getExtras();
+
+
+        mMap.addMarker(new MarkerOptions().position(userCurrentLocationCorodinates)
+                .title("Your current address.").snippet(userAddress.toString())
+                .icon(BitmapDescriptorFactory.fromResource(R.drawable.iconmonstr_eye_thin)));
+        //Setting the zoom level of the map.
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(userCurrentLocationCorodinates,15));
+
+        // mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
+        // mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));
     }
 }
