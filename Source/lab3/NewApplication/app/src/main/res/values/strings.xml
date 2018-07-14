@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">NewApplication</string>
+    <string name="name">Name</string>
+    <string name="title_activity_video">Video</string>
+    <string name="title_activity_my_google_map">Map</string>
+    <string name="title_activity_new_google_map">Map</string>
+    <string name="title_activity_google_map">Map</string>
+    <string name="title_activity_map_new">Map</string>
+    <string name="title_activity_map_google">Map</string>
+</resources>
