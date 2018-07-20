@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Speech to Text</string>
+    <string name="hint">Tap on mic to start</string>
+    <string name="sms_label">Latest SMS</string>
+    <string name="Hello">Hello</string>
+    <string name="speech_toggle_on">START SPEAKING</string>
+    <string name="speech_toggle_off">STOP SPEAKING</string>
+
+    <string name="start_speaking">Okay! I will read your messages out loud for you now.</string>
+    <string name="stop_speaking">Okay! I will stay silent now.</string>
+    <string name="what_is_your_name">what is your name.</string>
+    <string name="nice_to_meet_you">nice to meet you billy</string>
+
+    <string name="system">I can understand. Please tell your symptoms in short</string>
+    <string name="take_care">Thank you too Billy Take care</string>
+    <string name="time">The time is 16:50</string>
+    <string name="fever">I think you have fever. Please take this medicine</string>
+    <string name="thank">Thank You Billy Have Nice Day</string>
+
+</resources>
