@@ -3,19 +3,17 @@ package com.stacktips.speechtotext;
 import android.content.ActivityNotFoundException;
 import android.content.Intent;
 import android.os.Bundle;
-import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.Locale;
-
-
 public class MainActivity extends AppCompatActivity {
 
     private static final int REQ_CODE_SPEECH_INPUT = 100;
@@ -75,22 +73,32 @@ public class MainActivity extends AppCompatActivity {
 
                         speaker.speak(getString(R.string.what_is_your_name));
                     }
-                    if(result.get(0).equals("my name is Billy")){
-                        speaker.speak(getString(R.string.nice_to_meet_you));
+                    if(result.get(0).contains("name")){
+                        String resname = result.get(0);
+                        String[] words = resname.split(" ");
+                        String name = words[words.length -1];
+                       speaker.speak(getString(R.string.nice_to_meet_you) + name);
                     }
-                    if(result.get(0).equals("i'm not feeling good what should i do")){
+                    if(result.get(0).contains("feeling")){
                         speaker.speak(getString(R.string.system));
                     }
-                    if(result.get(0).equals("thank you my medicine assistant")){
+                    if(result.get(0).contains("assistant")){
                         speaker.speak(getString(R.string.take_care));
                     }
-                    if(result.get(0).equals("what medicine should i take")){
+                    if(result.get(0).contains("take")){
                         speaker.speak(getString(R.string.fever));
                     }
-                    if(result.get(0).equals("what time is it")){
-                        speaker.speak(getString(R.string.time));
+                    if(result.get(0).contains("time")){
+
+                        SimpleDateFormat sdfDate =new SimpleDateFormat("HH:mm");//dd/MM/yyyy
+                        Date now = new Date();
+                        String[] strDate = sdfDate.format(now).split(":");
+                        if(strDate[1].contains("00")) {
+                            strDate[1] = "o'clock";
+                        }
+                        speaker.speak(getString(R.string.time)+sdfDate.format(now));
                     }
-                    if(result.get(0).equals("thank you")){
+                    if(result.get(0).contains("thank")){
                         speaker.speak(getString(R.string.thank));
 
 

@@ -3,21 +3,111 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Dark Angel\Documents\421\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="C:\Users\Ndarkangel\.android\build-cache\371d79021c7d2c1fc6c0b777f7886b72eded6ed2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7651d8ad53d18dcb284fdd334827be8528b4694a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\af036305226594935bbb20d716674b4ab55009c9\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a1ccf17441333d47291ad876d8551bc4257ca9a3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_f5c835598396faa2df69a40d8705e14e1ef93067\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\84065ecdb73883eac17cdd2f76670b27de4521d1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_26d56c896461669608bcc2a7c3ef57815ae2e3e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\b923efa7e64cb9504146e80c0b516324185712ac\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_48e86a147433b8993396b328bc012ceec0dde7bc\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c44f00556be52d65fdcfbff1d9b7410b03bc296f">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_cf9ddd08dea920f36a1a5c8c68b7fa67d0bfce1a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\190c49a5113d4d90c5f5e8e31cdd99828eff7deb\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_30bfe809b75dbbec3f5245a44345fdc3bdfb9c2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\0e523e0f34f4b6d99c99a32d9e3543d8e907f619\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e431eeca86d4838e24e09ddeada0106ba75ed381\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
         sha1="c323c36ecc68965c4cfb460f7721113d2b61ed03">
-        <dex dex="C:\Users\Dark Angel\Documents\421\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_b6b5815ca333c628408678099403fcd637e51901\classes.dex" />
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e6353827650b5139cf350ad47fdd5505ffacf042\classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Dark Angel\Documents\421\Android-Speech-to-Text-Example-master\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jar="C:\Users\Ndarkangel\.android\build-cache\1a270bda90b2198f304fbcd870953346075dc570\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.0"
-        sha1="eba4855756da578f8c7afa7255543ba4503424c0">
-        <dex dex="C:\Users\Dark Angel\Documents\421\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_9844bbdf45a1f91f4f046d65634e1291b31bb833\classes.dex" />
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_466920b9ace24eeef4aba54c26fbab2a59a257ff\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\d4e99121b437f4c59127ed2ca54c1bdbffc33504\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_20ebad4e695fa15ddc92981cc6e692ce9ecbe4fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Ndarkangel\.android\build-cache\8d752e2168be6ed5c9d9fe0fcd03c01a84ec2d1b\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Ndarkangel\Documents\tip\Android-Speech-to-Text-Example-master\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_b1dc1a96204fca7f42eb24ac7ea1692dd669bbe7\classes.dex" />
     </item>
 
 </items>
