@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="spend_summary">
+        <item>Food</item>
+        <item>Groceries</item>
+        <item>Transportation</item>
+        <item>Utilities</item>
+        <item>Phone</item>
+        <item>House</item>
+        <item>Clothes</item>
+        <item>Car</item>
+        <item>Entertainment</item>
+        <item>Books</item>
+        <item>Insurance</item>
+        <item>Tax</item>
+        <item>Hospital Bills</item>
+        <item>Education</item>
+        <item>Trips</item>
+
+    </string-array>
+</resources>

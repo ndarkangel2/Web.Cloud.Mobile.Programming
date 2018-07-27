@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Budget">
+    <EditText
+        android:id="@+id/userAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="69dp"
+        android:layout_marginRight="69dp"
+        android:layout_marginTop="94dp"
+        android:ems="10"
+        android:hint="Enter your Spending"
+        android:inputType="number|numberDecimal"
+        android:singleLine="false"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="215dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginTop="153dp" />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginTop="194dp"
+        android:text="Enter" />
+
+    <Button
+        android:id="@+id/view_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/view_Total"
+        android:layout_alignTop="@+id/enter"
+        android:text="View" />
+
+    <Button
+        android:id="@+id/view_Total"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginBottom="237dp"
+        android:text="View total" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginBottom="180dp"
+        android:text="Delete" />
+
+    <Button
+        android:id="@+id/takePicture"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginTop="260dp"
+        android:onClick="onPhotoClick"
+        android:text="Take Picture" />
+
+    <Button
+        android:id="@+id/signOut"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginBottom="26dp"
+        android:text="Sign Out" />
+
+    <Button
+        android:id="@+id/recognizeItem"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/userAmount"
+        android:layout_marginBottom="99dp"
+        android:onClick="recognizeItemInScreen"
+        android:text="Recognition" />
+
+    <Button
+        android:id="@+id/calender"
+        android:layout_width="203dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="22dp"
+        android:onClick="openCalender"
+        android:text="Calender" />
+</RelativeLayout>
